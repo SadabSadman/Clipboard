@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 18px;
+  text-align: center;
+}
+
+#header-section {
+  background-image: url(images/bg-header-desktop.png);
+  background-repeat: no-repeat;
+}
+
+.logo {
+  margin: 6.25rem auto 3rem;
+}
+
+.heading {
+  color: hsl(210, 10%, 33%);
+  font-weight: 600;
+  margin: 0.5rem auto 0;
+}
+
+.sub-heading {
+  color: hsl(201, 11%, 66%);
+  width: 36.5625rem;
+  margin: 1rem auto 2rem;
+}
+
+.ios-download-button {
+  border-radius: 5rem;
+  background-color: hsl(171, 66%, 44%);
+  color: #fff;
+  font-weight: 600;
+  margin: 0.5rem 0.5rem 3rem auto;
+  padding: 0.625rem 2rem;
+}
+
+.mac-download-button {
+  border-radius: 5rem;
+  background-color: hsl(233, 100%, 69%);
+  color: #fff;
+  font-weight: 600;
+  margin: 0.5rem 0.5rem 3rem auto;
+  padding: 0.625rem 2rem;
+}
+
+.features-section-heading {
+  color: hsl(210, 10%, 33%);
+  font-weight: 600;
+  margin: 6.25rem auto 1.5rem;
+}
+
+.features-section-sub-heading {
+  color: hsl(201, 11%, 66%);
+  width: 36.5625rem;
+  margin: 1rem auto 7rem;
+}
+
+.features-image {
+  float: left;
+  height: 37rem;
+  margin: 0 10rem 10rem 0;
+  object-position: 100% -15%;
+  object-fit: none;
+  width: 40rem;
+}
+
+.features-heading {
+  color: hsl(210, 10%, 33%);
+  font-weight: 600;
+  margin: 5rem 0 0 0;
+  text-align: start;
+}
+
+.features-description {
+  color: hsl(201, 11%, 66%);
+  margin: 0 auto 2rem;
+  text-align: start;
+  width: 50rem;
+}
+
+.workflow-section-heading {
+  clear: both;
+  color: hsl(210, 10%, 33%);
+  font-weight: 600;
+  margin: 5rem auto 3rem;
+}
+
+.workflow-section-sub-heading {
+  color: hsl(201, 11%, 66%);
+  width: 36.5625rem;
+  margin: 1rem auto 6rem;
+}
+
+.workflow-heading {
+  color: hsl(210, 10%, 33%);
+  font-weight: 600;
+  margin: 3rem auto 1rem;
+}
+
+.workflow-description {
+  color: hsl(201, 11%, 66%);
+  margin: 1rem auto 4rem;
+  width: 22rem;
+}
+
+#download-section {
+  margin: 0 auto 7rem;
+}
+
+.download-section-heading {
+  color: hsl(210, 10%, 33%);
+  font-weight: 600;
+  margin: 0 auto 2rem;
+}
+
+.download-section-sub-heading {
+  color: hsl(201, 11%, 66%);
+  margin: 0 auto 3.5rem;
+  width: 35rem;
+}
+
+#testimonials-section {
+  margin: 4rem auto 10rem;
+}
+
+#footer-section {
+  background-color: #f1f5f9;
+  padding: 0.5rem;
+}
+
+.footer-logo {
+  height: 6.25rem;
+  width: 6.25rem;
+  margin: 3rem auto 1rem;
+}
+
+.footer-content {
+  color: hsl(210, 10%, 33%);
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 3rem auto 0;
+}
+
+.contacts {
+  margin: 5rem auto 1rem;
+  padding: 0.5rem;
+}
+
+.attribution {
+  color: hsl(210, 10%, 33%);
+  font-size: 1rem;
+  font-weight: 600;
+  margin: 2rem auto 1rem;
+}
